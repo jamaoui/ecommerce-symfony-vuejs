@@ -1,0 +1,4 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div {{ vue_component('ProductsList', {'products': products}) }}></div>
+{% endblock %}
